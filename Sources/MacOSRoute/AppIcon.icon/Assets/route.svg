@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- 主干与直连分支 -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="72">
+    <path d="M512 812 V590"/>
+    <path d="M512 590 C512 480 724 500 730 340"/>
+  </g>
+  <circle cx="512" cy="590" r="62" fill="#FFFFFF"/>
+</svg>

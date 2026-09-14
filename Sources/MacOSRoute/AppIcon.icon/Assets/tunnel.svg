@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- 通往 VPN 隧道（盾牌）的暗色分支 -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M512 590 C512 480 306 500 300 420" stroke-width="72"/>
+    <path d="M300 196 L396 230 V306 C396 368 356 408 300 430 C244 408 204 368 204 306 V230 Z" stroke-width="40"/>
+  </g>
+</svg>

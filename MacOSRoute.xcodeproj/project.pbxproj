@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F2167D790FC4B7E8B715328 /* libRouteShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 987F30012A142DE606AF9A0C /* libRouteShared.a */; };
+		4857C85420B8F839F89DB528 /* libRouteHelperCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 544D358AFABAA424A70CA224 /* libRouteHelperCore.a */; };
+		49CB8F900EA2976C783B3E1D /* libRouteShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 987F30012A142DE606AF9A0C /* libRouteShared.a */; };
+		746948D2F57A6DF909077523 /* libRouteHelperCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 544D358AFABAA424A70CA224 /* libRouteHelperCore.a */; };
+		A29B314A4AF5C78D3B44F555 /* com.hyperits.app.MacOSRoute.helper in Embed Dependencies */ = {isa = PBXBuildFile; fileRef = 7F2A4F48617B4D9D5C2DCE2A /* com.hyperits.app.MacOSRoute.helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBDAC328567F079DBAF9A8EC /* libRouteShared.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 987F30012A142DE606AF9A0C /* libRouteShared.a */; };
+		E62865DA739FCACE9DF7556D /* libRouteHelperCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 544D358AFABAA424A70CA224 /* libRouteHelperCore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09ACFF97843D976CC35B055E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144B5FEA51BCA2149328085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABF260839C36C03DD2918EF;
+			remoteInfo = RouteHelperCore;
+		};
+		13957ECC1CE5C2532583FD85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144B5FEA51BCA2149328085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABF260839C36C03DD2918EF;
+			remoteInfo = RouteHelperCore;
+		};
+		835E3C62886DEF2C9237C52A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144B5FEA51BCA2149328085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC92E2F036293652A4DBBC6;
+			remoteInfo = RouteShared;
+		};
+		99FDC6AEA06095A7D720978F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144B5FEA51BCA2149328085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC92E2F036293652A4DBBC6;
+			remoteInfo = RouteShared;
+		};
+		A86801D9B40692DB2819D376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144B5FEA51BCA2149328085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F6DAF3CB801178551E78E81;
+			remoteInfo = MacOSRouteHelper;
+		};
+		BB097FF5FC1F47C83B3BEE6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144B5FEA51BCA2149328085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC92E2F036293652A4DBBC6;
+			remoteInfo = RouteShared;
+		};
+		F4D11BA4F0835ED7E50A6314 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144B5FEA51BCA2149328085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC92E2F036293652A4DBBC6;
+			remoteInfo = RouteShared;
+		};
+		FE9309D264A07C66234EB966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A144B5FEA51BCA2149328085 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CABF260839C36C03DD2918EF;
+			remoteInfo = RouteHelperCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEFE3BC787ED21DE92BC6DFC /* Embed Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				A29B314A4AF5C78D3B44F555 /* com.hyperits.app.MacOSRoute.helper in Embed Dependencies */,
+			);
+			name = "Embed Dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		13547926DDB8636F5C1CB1E0 /* RouteCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		544D358AFABAA424A70CA224 /* libRouteHelperCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRouteHelperCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F2A4F48617B4D9D5C2DCE2A /* com.hyperits.app.MacOSRoute.helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = com.hyperits.app.MacOSRoute.helper; sourceTree = BUILT_PRODUCTS_DIR; };
+		987F30012A142DE606AF9A0C /* libRouteShared.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRouteShared.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CF54020D7D30506EBB9ABA /* MacOSRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB119FB321256DF4268CEB87 /* MacOSRoute-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MacOSRoute-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		679F0312769AFDD6BBB90E4A /* Sources/RouteShared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/RouteShared;
+			sourceTree = "<group>";
+		};
+		78C02217DEB2624505081D43 /* Tests/RouteCoreTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tests/RouteCoreTests;
+			sourceTree = "<group>";
+		};
+		95899D4E64F92FF4081046B4 /* Sources/MacOSRoute */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/MacOSRoute;
+			sourceTree = "<group>";
+		};
+		A81D85A393F88417A6136C84 /* Sources/RouteHelperCore */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/RouteHelperCore;
+			sourceTree = "<group>";
+		};
+		BC42B305E71E72C0FA808C06 /* Sources/MacOSRouteHelper */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sources/MacOSRouteHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378DDEDD8CFDDFE317AA2E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2167D790FC4B7E8B715328 /* libRouteShared.a in Frameworks */,
+				E62865DA739FCACE9DF7556D /* libRouteHelperCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6BEEFC98E5CE023460732E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBDAC328567F079DBAF9A8EC /* libRouteShared.a in Frameworks */,
+				4857C85420B8F839F89DB528 /* libRouteHelperCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C94E3983C39B8DA4B57B2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CB8F900EA2976C783B3E1D /* libRouteShared.a in Frameworks */,
+				746948D2F57A6DF909077523 /* libRouteHelperCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A9BC4E120A06D6C957824D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				544D358AFABAA424A70CA224 /* libRouteHelperCore.a */,
+				987F30012A142DE606AF9A0C /* libRouteShared.a */,
+				A9CF54020D7D30506EBB9ABA /* MacOSRoute.app */,
+				7F2A4F48617B4D9D5C2DCE2A /* com.hyperits.app.MacOSRoute.helper */,
+				13547926DDB8636F5C1CB1E0 /* RouteCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DD04689D4299102E6C1FF3B = {
+			isa = PBXGroup;
+			children = (
+				B6D1E11F3D4A7945505F09A2 /* Config */,
+				95899D4E64F92FF4081046B4 /* Sources/MacOSRoute */,
+				BC42B305E71E72C0FA808C06 /* Sources/MacOSRouteHelper */,
+				A81D85A393F88417A6136C84 /* Sources/RouteHelperCore */,
+				679F0312769AFDD6BBB90E4A /* Sources/RouteShared */,
+				78C02217DEB2624505081D43 /* Tests/RouteCoreTests */,
+				33A9BC4E120A06D6C957824D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6D1E11F3D4A7945505F09A2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				EB119FB321256DF4268CEB87 /* MacOSRoute-Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F6DAF3CB801178551E78E81 /* MacOSRouteHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E8E545ECA3CDB5DE659ACF /* Build configuration list for PBXNativeTarget "MacOSRouteHelper" */;
+			buildPhases = (
+				2F467FEAF118F8E9884F6C38 /* Sources */,
+				7374BB5334EA4807ADD90A29 /* Resources */,
+				378DDEDD8CFDDFE317AA2E3C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				208951E5CBE93E72B047A845 /* PBXTargetDependency */,
+				6E30C49E188D0BD2AF8D5CBE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC42B305E71E72C0FA808C06 /* Sources/MacOSRouteHelper */,
+			);
+			name = MacOSRouteHelper;
+			packageProductDependencies = (
+			);
+			productName = MacOSRouteHelper;
+			productReference = 7F2A4F48617B4D9D5C2DCE2A /* com.hyperits.app.MacOSRoute.helper */;
+			productType = "com.apple.product-type.tool";
+		};
+		CABF260839C36C03DD2918EF /* RouteHelperCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87F0DB786764547906440468 /* Build configuration list for PBXNativeTarget "RouteHelperCore" */;
+			buildPhases = (
+				C79D21345F48B37DE3D4095B /* Sources */,
+				5C5F1083E7F60EA0BB2C4348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3640E06258D21A8FEA4866B6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A81D85A393F88417A6136C84 /* Sources/RouteHelperCore */,
+			);
+			name = RouteHelperCore;
+			packageProductDependencies = (
+			);
+			productName = RouteHelperCore;
+			productReference = 544D358AFABAA424A70CA224 /* libRouteHelperCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CDC92E2F036293652A4DBBC6 /* RouteShared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0A2819905E466D49E6F3547 /* Build configuration list for PBXNativeTarget "RouteShared" */;
+			buildPhases = (
+				505F940A1A14D385DD0EBAC0 /* Sources */,
+				93994D1E43CFDEE54622E89C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				679F0312769AFDD6BBB90E4A /* Sources/RouteShared */,
+			);
+			name = RouteShared;
+			packageProductDependencies = (
+			);
+			productName = RouteShared;
+			productReference = 987F30012A142DE606AF9A0C /* libRouteShared.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC8C01A73B3E249EB762277A /* MacOSRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AC41D340805E75D3FE84FB8 /* Build configuration list for PBXNativeTarget "MacOSRoute" */;
+			buildPhases = (
+				37A2AB92827B1011E5EFC2A3 /* Sources */,
+				1D9F72E645D4BE4044E01CCF /* Resources */,
+				AF6BEEFC98E5CE023460732E /* Frameworks */,
+				CEFE3BC787ED21DE92BC6DFC /* Embed Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBD2D2BB1D03048CE72B3091 /* PBXTargetDependency */,
+				F088EFB661B1E83DDC0CE374 /* PBXTargetDependency */,
+				DD70B9A624BB7E52F54128E4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				95899D4E64F92FF4081046B4 /* Sources/MacOSRoute */,
+			);
+			name = MacOSRoute;
+			packageProductDependencies = (
+			);
+			productName = MacOSRoute;
+			productReference = A9CF54020D7D30506EBB9ABA /* MacOSRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F070FBCDCCE559B4DBFCCC35 /* RouteCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312EE2D94AF307C40D5BDD4C /* Build configuration list for PBXNativeTarget "RouteCoreTests" */;
+			buildPhases = (
+				BB9FB02677864DF25F7F9479 /* Sources */,
+				119F7A8B0348D3ECA4E7F448 /* Resources */,
+				B0C94E3983C39B8DA4B57B2B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8A578EE5A281ADA3239B3AA /* PBXTargetDependency */,
+				DEB63D72E82310A87932231E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				78C02217DEB2624505081D43 /* Tests/RouteCoreTests */,
+			);
+			name = RouteCoreTests;
+			packageProductDependencies = (
+			);
+			productName = RouteCoreTests;
+			productReference = 13547926DDB8636F5C1CB1E0 /* RouteCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A144B5FEA51BCA2149328085 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0F6DAF3CB801178551E78E81 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					CABF260839C36C03DD2918EF = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					CDC92E2F036293652A4DBBC6 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F070FBCDCCE559B4DBFCCC35 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4A5FFFC73476AD6E6F43B737 /* Build configuration list for PBXProject "MacOSRoute" */;
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 7DD04689D4299102E6C1FF3B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 33A9BC4E120A06D6C957824D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC92E2F036293652A4DBBC6 /* RouteShared */,
+				CABF260839C36C03DD2918EF /* RouteHelperCore */,
+				0F6DAF3CB801178551E78E81 /* MacOSRouteHelper */,
+				DC8C01A73B3E249EB762277A /* MacOSRoute */,
+				F070FBCDCCE559B4DBFCCC35 /* RouteCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		119F7A8B0348D3ECA4E7F448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D9F72E645D4BE4044E01CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5F1083E7F60EA0BB2C4348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7374BB5334EA4807ADD90A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93994D1E43CFDEE54622E89C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F467FEAF118F8E9884F6C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37A2AB92827B1011E5EFC2A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		505F940A1A14D385DD0EBAC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9FB02677864DF25F7F9479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79D21345F48B37DE3D4095B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		208951E5CBE93E72B047A845 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC92E2F036293652A4DBBC6 /* RouteShared */;
+			targetProxy = 99FDC6AEA06095A7D720978F /* PBXContainerItemProxy */;
+		};
+		3640E06258D21A8FEA4866B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC92E2F036293652A4DBBC6 /* RouteShared */;
+			targetProxy = F4D11BA4F0835ED7E50A6314 /* PBXContainerItemProxy */;
+		};
+		6E30C49E188D0BD2AF8D5CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABF260839C36C03DD2918EF /* RouteHelperCore */;
+			targetProxy = FE9309D264A07C66234EB966 /* PBXContainerItemProxy */;
+		};
+		BBD2D2BB1D03048CE72B3091 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC92E2F036293652A4DBBC6 /* RouteShared */;
+			targetProxy = BB097FF5FC1F47C83B3BEE6F /* PBXContainerItemProxy */;
+		};
+		DD70B9A624BB7E52F54128E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F6DAF3CB801178551E78E81 /* MacOSRouteHelper */;
+			targetProxy = A86801D9B40692DB2819D376 /* PBXContainerItemProxy */;
+		};
+		DEB63D72E82310A87932231E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABF260839C36C03DD2918EF /* RouteHelperCore */;
+			targetProxy = 09ACFF97843D976CC35B055E /* PBXContainerItemProxy */;
+		};
+		F088EFB661B1E83DDC0CE374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CABF260839C36C03DD2918EF /* RouteHelperCore */;
+			targetProxy = 13957ECC1CE5C2532583FD85 /* PBXContainerItemProxy */;
+		};
+		F8A578EE5A281ADA3239B3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC92E2F036293652A4DBBC6 /* RouteShared */;
+			targetProxy = 835E3C62886DEF2C9237C52A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BC274201B3643067C545E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--identifier $(PRODUCT_BUNDLE_IDENTIFIER)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.MacOSRoute.helper;
+				PRODUCT_NAME = com.hyperits.app.MacOSRoute.helper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1CE244D83644E1D89EBFD5B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.RouteHelperCore;
+				PRODUCT_NAME = RouteHelperCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Debug;
+		};
+		24BB1D9016FBAF4788F42936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.RouteHelperCore;
+				PRODUCT_NAME = RouteHelperCore;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Release;
+		};
+		2B54C4951DF85173609172A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.MacOSRoute.tests;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		523E2BAADD816779D4E1EAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.RouteShared;
+				PRODUCT_NAME = RouteShared;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Release;
+		};
+		7DD108E0E36C3D59FCBBED3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.RouteShared;
+				PRODUCT_NAME = RouteShared;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Debug;
+		};
+		8A6B568D07F427AD261394CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 698L694DS6;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8EDEFB1DD92F25AC497CD4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 698L694DS6;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9D8CBFBE409420F3F8BC9090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_CODE_SIGN_FLAGS = "--identifier $(PRODUCT_BUNDLE_IDENTIFIER)";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.MacOSRoute.helper;
+				PRODUCT_NAME = com.hyperits.app.MacOSRoute.helper;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A58BAAE41E10049CE8FFFF31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 698L694DS6;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/MacOSRoute-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.MacOSRoute;
+				PRODUCT_NAME = MacOSRoute;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBFB620628507CB588DB8950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 698L694DS6;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/MacOSRoute-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.MacOSRoute;
+				PRODUCT_NAME = MacOSRoute;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F283AFCBE610A7D261CC60C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyperits.app.MacOSRoute.tests;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312EE2D94AF307C40D5BDD4C /* Build configuration list for PBXNativeTarget "RouteCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F283AFCBE610A7D261CC60C7 /* Debug */,
+				2B54C4951DF85173609172A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3AC41D340805E75D3FE84FB8 /* Build configuration list for PBXNativeTarget "MacOSRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBFB620628507CB588DB8950 /* Debug */,
+				A58BAAE41E10049CE8FFFF31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A5FFFC73476AD6E6F43B737 /* Build configuration list for PBXProject "MacOSRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDEFB1DD92F25AC497CD4D2 /* Debug */,
+				8A6B568D07F427AD261394CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87F0DB786764547906440468 /* Build configuration list for PBXNativeTarget "RouteHelperCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE244D83644E1D89EBFD5B5 /* Debug */,
+				24BB1D9016FBAF4788F42936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0E8E545ECA3CDB5DE659ACF /* Build configuration list for PBXNativeTarget "MacOSRouteHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC274201B3643067C545E12 /* Debug */,
+				9D8CBFBE409420F3F8BC9090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E0A2819905E466D49E6F3547 /* Build configuration list for PBXNativeTarget "RouteShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DD108E0E36C3D59FCBBED3D /* Debug */,
+				523E2BAADD816779D4E1EAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A144B5FEA51BCA2149328085 /* Project object */;
+}

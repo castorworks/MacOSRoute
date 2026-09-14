@@ -1,0 +1,100 @@
+{
+  "fill": {
+    "linear-gradient": [
+      "display-p3:0.16,0.27,0.62,1.00000",
+      "display-p3:0.04,0.55,0.53,1.00000"
+    ],
+    "orientation": {
+      "start": {
+        "x": 0.5,
+        "y": 0
+      },
+      "stop": {
+        "x": 0.5,
+        "y": 1
+      }
+    }
+  },
+  "groups": [
+    {
+      "name": "Destination",
+      "layers": [
+        {
+          "image-name": "destination.svg",
+          "name": "destination",
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              24
+            ]
+          }
+        }
+      ],
+      "shadow": {
+        "kind": "layer-color",
+        "opacity": 0.5
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": false,
+        "value": 0
+      }
+    },
+    {
+      "name": "Route",
+      "layers": [
+        {
+          "image-name": "route.svg",
+          "name": "route",
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              24
+            ]
+          }
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.45
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": true,
+        "value": 0.15
+      }
+    },
+    {
+      "name": "Tunnel",
+      "layers": [
+        {
+          "image-name": "tunnel.svg",
+          "name": "tunnel",
+          "opacity": 0.42,
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              24
+            ]
+          }
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.25
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.5
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": [
+      "macOS"
+    ]
+  }
+}
