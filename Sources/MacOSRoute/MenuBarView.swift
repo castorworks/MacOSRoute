@@ -15,7 +15,7 @@ struct MenuBarView: View {
 
             if client.canModify {
                 HStack {
-                    TextField("添加 IP / 域名", text: $input)
+                    TextField("添加 IP / 网段 / 域名", text: $input)
                         .textFieldStyle(.roundedBorder)
                         .onSubmit(add)
                     Button("添加", action: add)
